@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danish2k6.github.io/sitemap.xml
