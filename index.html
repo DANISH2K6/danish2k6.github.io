@@ -91,6 +91,16 @@ ul.tags{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0}
 .contact p{max-width:52ch;margin-bottom:6px}
 footer{margin-top:64px;border-top:2px solid var(--ink);padding:22px 0;color:var(--muted);font-size:.9rem}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero .wrap>*{animation:none}.btn{transition:none}.btn:hover{transform:none}}
+
+  .profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--ink);
+  display: block;
+  margin: 0 auto 24px;
+}
 </style>
 </head>
 <body>
@@ -111,6 +121,7 @@ footer{margin-top:64px;border-top:2px solid var(--ink);padding:22px 0;color:var(
 <div class="hero">
   <div class="wrap">
     <div>
+      <img src="profile.png" alt="Danish Kumar" class="profile-photo">
       <h1>Danish Kumar</h1>
       <p class="role">Mechatronics Engineering Student at MUET</p>
       <p class="lead">Learning robotics, automation and embedded systems by building practical projects with Arduino and C/C++.</p>
